@@ -417,23 +417,176 @@ namespace Exercises
             //Factorial of a Number 
 
 
-           // double number ,resut ,i;
-           // Console.WriteLine("Enter Factorial  number  ");
-           //number = double.Parse(Console.ReadLine());
+            // double number ,resut ,i;
+            // Console.WriteLine("Enter Factorial  number  ");
+            //number = double.Parse(Console.ReadLine());
 
-           // resut = 1;
-           // i = 1;
+            // resut = 1;
+            // i = 1;
 
-           // while(i<= number)
-           // {
-           //     resut = resut * i;
-           //         i = i + 1;
-             
-           // }
-           //  Console.WriteLine(" Factorial  number = "+number+" = "+ resut);
+            // while(i<= number)
+            // {
+            //     resut = resut * i;
+            //         i = i + 1;
+
+            // }
+            //  Console.WriteLine(" Factorial  number = "+number+" = "+ resut);
 
             //_____________________________________________________
 
+            //Sum of Even and Odd Numbers
+            //double number, resut=0, resut1=0 ,i=1;
+            //Console.WriteLine("Enter   number  ");
+            //number = double.Parse(Console.ReadLine());
+
+            //do
+            //{
+            //    if (i % 2 == 0)
+            //    {
+            //        resut += i;
+
+
+            //    }
+            //    else
+            //    {
+            //        resut1 += i;
+            //    }
+            //    i++;
+
+            //} while (i <=number);
+            //Console.WriteLine("even   number  "+resut);
+            //Console.WriteLine("odd   number  "+resut1);
+
+            //_________________________________________________
+
+
+            //Scientific Calculator (Switch-Case & Math Functions)
+
+            //int number;
+            //double input, resut;
+            //do
+            //{
+            //    Console.WriteLine("Selecte Operation ");
+            //    Console.WriteLine("1-sin ");
+            //    Console.WriteLine("2-cos");
+            //    Console.WriteLine("3- tan");
+            //    Console.WriteLine("4- sqrt");
+            //    Console.WriteLine("5- log");
+            //    Console.WriteLine("6- pow");
+            //    Console.WriteLine("7-Exit ");
+
+            //    number = int.Parse(Console.ReadLine());
+
+            //    switch (number)
+            //    {
+            //        case 1:
+            //            Console.WriteLine(" sin ");
+            //            Console.WriteLine(" Enter Number ");
+            //            input = int.Parse(Console.ReadLine());
+            //            resut = Math.Sin(input);
+            //            Console.WriteLine(" sin Number "+resut);
+
+            //            break;
+            //        case 2:
+
+            //            Console.WriteLine(" sin ");
+            //            Console.WriteLine(" Enter Number ");
+            //            input = int.Parse(Console.ReadLine());
+            //            resut = Math.Cos(input);
+            //            Console.WriteLine(" sin Number " + resut);
+
+            //            break;
+            //        case 3:
+
+            //            Console.WriteLine(" sin ");
+            //            Console.WriteLine(" Enter Number ");
+            //            input = int.Parse(Console.ReadLine());
+            //            resut = Math.Tan(input);
+            //            Console.WriteLine(" sin Number " + resut);
+
+
+            //            break;
+            //        case 4:
+
+            //            Console.WriteLine(" sin ");
+            //            Console.WriteLine(" Enter Number ");
+            //            input = int.Parse(Console.ReadLine());
+            //            resut = Math.Sqrt(input);
+            //            Console.WriteLine(" sin Number " + resut);
+
+
+            //            break;
+            //        case 5:
+
+            //            Console.WriteLine(" sin ");
+            //            Console.WriteLine(" Enter Number ");
+            //            input = int.Parse(Console.ReadLine());
+            //            resut = Math.Log(input);
+            //            Console.WriteLine(" sin Number " + resut);
+
+
+            //            break;
+            //        case 6:
+
+            //            Console.WriteLine(" sin ");
+            //            Console.WriteLine(" Enter Number ");
+            //            input = int.Parse(Console.ReadLine());
+            //            resut = Math.Pow(input,2);
+            //            Console.WriteLine(" sin Number " + resut);
+
+
+            //            break;
+            //        case 7:
+
+            //            Console.WriteLine("GG");
+            //            number = 7;
+            //            break;
+            //    }
+
+
+            //} while (number == 7);
+
+            //___________________________________________________________
+
+            //7. Print Pattern (For Loop)
+            //int input;
+            //string output;
+            //Console.WriteLine(" Enter Number ");
+            //  input = int.Parse(Console.ReadLine());
+
+            //for(int i = 0; input >= i; i++)
+            //{
+
+
+
+            //    for(int x=0; x <= i; x++)
+            //    {
+
+            //        Console.Write("*");
+
+            //    }
+
+            //    Console.WriteLine();
+
+            //}
+
+            //________________________________________________
+
+            //8. Print a Pyramid Pattern (For Loop)
+
+            int input;
+            string output;
+            Console.WriteLine(" Enter Number ");
+            input = int.Parse(Console.ReadLine());
+
+            for (int i = 1; i <= input; i++)
+            {
+                for (int j = 1; j <= i; j++)
+                {
+                    Console.Write("* ");
+                }
+                Console.WriteLine();
+            }
 
         }
     }
