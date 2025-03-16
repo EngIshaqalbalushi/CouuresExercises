@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.VisualBasic;
+using System;
 
 namespace Exercises
 {
@@ -242,12 +243,186 @@ namespace Exercises
             //    Console.WriteLine(" not fond resut");
 
             //}
+            //____________________________________________________________
+            // Simple Calculator (Switch-Case)
+
+
+            //double number1, number2, resut ;
+            //string opration;
+            //Console.WriteLine("Enter number 1 ");
+            //number1 = double.Parse(Console.ReadLine());
+            //Console.WriteLine("Enter number 2 ");
+            //number2 = double.Parse(Console.ReadLine());
+
+            //Console.WriteLine("Enter your operator(+, -, /, *, %)");
+            //opration = (Console.ReadLine());
+
+            //switch (opration)
+            //{
+            //    case "+":
+            //        resut = number1 + number2;
+            //        Console.WriteLine(resut);
+            //            break;
+            //    case "-":
+            //        resut = number1 - number2;
+            //        Console.WriteLine(resut);
+
+            //        break;
+            //    case "*":
+            //        resut = number1 * number2;
+            //        Console.WriteLine(resut);
+
+            //        break;
+            //    case "/":
+            //        resut = number1 / number2;
+            //        Console.WriteLine(resut);
+
+            //        break;
+            //}
+
+            //___________________________________________________________________
+
+            //Basic ATM System
+
+            //double Balance = 1000;
+
+            //int number = 0;
+            //double WithdrawMoney = 0;
+            //double NewBalance = 0;
+
+            //do
+            //{
+            //    Console.WriteLine("Selected Operation ");
+            //    Console.WriteLine("1-Withdraw Money ");
+            //    Console.WriteLine("2-Deposit Money ");
+            //    Console.WriteLine("3-Ckeck Bnlance");
+            //    Console.WriteLine("4-Exit ");
+            //    number = int.Parse(Console.ReadLine());
+
+            //    switch (number)
+            //    {
+            //        case 1:
+            //            if (Balance != 0)
+            //            {
+            //                Console.WriteLine("Balance = "+Balance);
+            //                Console.WriteLine("Add Withdraw Money  ");
+
+
+            //                WithdrawMoney = double.Parse(Console.ReadLine());
+
+            //            Console.WriteLine(" New Bnlance = " + (Balance-WithdrawMoney));
+            //            }
+
+            //            break;
+            //        case 2:
 
 
 
+            //                Console.WriteLine("Balance = " + Balance);
+            //                Console.WriteLine("Add Deposit  Money  ");
+
+
+            //                WithdrawMoney = double.Parse(Console.ReadLine());
+
+            //                Console.WriteLine(" New Bnlance = " + (Balance + WithdrawMoney));
 
 
 
+            //            break;
+            //        case 3:
+
+            //            Console.WriteLine( " Balance"+Balance);
+
+            //            break;
+            //        case 4:
+
+            //            Console.WriteLine("GG"  );
+            //            number = 4;
+            //            break;
+            //    }
+
+
+            //} while (number == 4);
+
+            //__________________________________________________________________________
+
+            //Geometry Calculator
+
+            //double area;
+            //double redius;
+            //double Circumference ,sdie, Perimeter;
+            //int number;
+            //double Height,Base;
+
+            //do
+            //{
+            //    Console.WriteLine("Selecte Shape ");
+            //    Console.WriteLine("1-Circle ");
+            //    Console.WriteLine("2-Square");
+            //    Console.WriteLine("3- Tringle");
+            //    Console.WriteLine("4-Exit ");
+            //    number = int.Parse(Console.ReadLine());
+
+            //    switch (number)
+            //    {
+            //        case 1:
+            //            Console.WriteLine(" Circle ");
+            //            Console.WriteLine("Enter Radius  ");
+            //            redius = double.Parse(Console.ReadLine());
+
+            //            area = 3.14 * redius * redius;
+            //            Circumference = 2 * 3.14 * redius;
+            //            Console.WriteLine("Circle Area = "+area);
+            //            Console.WriteLine("Circle Ciercumference = " + Circumference);
+
+            //            break;
+            //        case 2:
+            //            Console.WriteLine(" Square  ");
+            //            Console.WriteLine("Enter sdie  ");
+            //            sdie = double.Parse(Console.ReadLine());
+
+            //            area =Math.Pow(sdie,2) ;
+            //            Perimeter = 4 * sdie;
+            //            Console.WriteLine("Square Area  " +area);
+            //            Console.WriteLine("Square  Perimeter  " + Perimeter);
+
+
+            //            break;
+            //        case 3:
+
+            //            Console.WriteLine(" Triangle   ");
+            //            Console.WriteLine("Height sdie  ");
+            //            Height = double.Parse(Console.ReadLine());
+
+            //            Console.WriteLine("Base sdie  ");
+            //            Base = double.Parse(Console.ReadLine());
+
+            //            area = 1 / 2 * (Base * Height);
+            //            Console.WriteLine(" Triangle Area =   "+area);
+
+
+            //            break;
+            //        case 4:
+
+            //            Console.WriteLine("GG");
+            //            number = 4;
+            //            break;
+            //    }
+
+
+            //} while (number == 4);
+
+            //___________________________________________________
+
+            //Factorial of a Number 
+
+
+            double number ,resut;
+            Console.WriteLine("Enter Factorial  number  ");
+           number = double.Parse(Console.ReadLine());
+
+            resut = number * (number + 2);
+            Console.WriteLine("Enter Factorial  number  "+resut);
 
 
 
