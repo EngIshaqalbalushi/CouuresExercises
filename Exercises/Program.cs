@@ -573,20 +573,63 @@ namespace Exercises
             //________________________________________________
 
             //8. Print a Pyramid Pattern (For Loop)
+            //https://how.dev/answers/how-to-print-a-pyramid-pattern-using-javascript
+            //int input;
+            //string output;
+            //Console.WriteLine(" Enter Number ");
+            //input = int.Parse(Console.ReadLine());
+
+
+
+            //int i,m=0, space ;
+
+            //for (i = 1; i <= input; i++,m=0)
+            //{
+            //    for(space=1; space<=input-i;space++)
+            //    {
+            //          Console.Write(" ");
+
+            //    }
+            //    while (m != 2 * i - 1)
+            //    {
+            //          Console.Write("*");
+            //        ++m;
+            //    }
+            //    Console.Write("\n");
+            //}
+            //_________________________________________________________________
+
+
+            //Print a Diamond Pattern
 
             int input;
             string output;
             Console.WriteLine(" Enter Number ");
             input = int.Parse(Console.ReadLine());
 
-            for (int i = 1; i <= input; i++)
+
+
+            int i, m = 0, space;
+
+            for (i = 1; i <= input; i++, m = 0)
             {
-                for (int j = 1; j <= i; j++)
+                for (space = 1; space <= input - i; space++)
                 {
-                    Console.Write("* ");
+                    Console.Write(" ");
+
                 }
-                Console.WriteLine();
+                while (m != 2 * i - 1)
+                {
+                    Console.Write("*");
+                    ++m;
+                }
+
+
+                
+                Console.Write("\n");
+
             }
+
 
         }
     }
