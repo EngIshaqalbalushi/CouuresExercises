@@ -417,14 +417,22 @@ namespace Exercises
             //Factorial of a Number 
 
 
-            double number ,resut;
-            Console.WriteLine("Enter Factorial  number  ");
-           number = double.Parse(Console.ReadLine());
+           // double number ,resut ,i;
+           // Console.WriteLine("Enter Factorial  number  ");
+           //number = double.Parse(Console.ReadLine());
 
-            resut = number * (number + 2);
-            Console.WriteLine("Enter Factorial  number  "+resut);
+           // resut = 1;
+           // i = 1;
 
+           // while(i<= number)
+           // {
+           //     resut = resut * i;
+           //         i = i + 1;
+             
+           // }
+           //  Console.WriteLine(" Factorial  number = "+number+" = "+ resut);
 
+            //_____________________________________________________
 
 
         }
