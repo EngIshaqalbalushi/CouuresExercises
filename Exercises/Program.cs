@@ -633,14 +633,37 @@ namespace Exercises
             //    }
             //      Console.WriteLine();
             //}
-
-            //10. Guess Game with helper
-
             //________________________________________________________
 
 
+            //10. Guess Game with helper
+            //int input=0;
+          
 
-            
+            //Random rd = new Random();
+            //int rand_num = rd.Next(1, 100);
+
+            //while (input != rand_num)
+            //{
+            //    Console.WriteLine("Enter Number Random  (1-100)  ");
+            //    input = int.Parse(Console.ReadLine());
+            //    if (input > rand_num)
+            //    {
+            //        Console.WriteLine("Try Lower!");
+            //    }
+            //    else if (input <rand_num)
+            //    {
+            //        Console.WriteLine("Try Higher!");
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("You Win!");
+            //    }
+            //}
+
+
+
+
 
 
 
