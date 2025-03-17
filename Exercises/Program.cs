@@ -601,34 +601,49 @@ namespace Exercises
 
 
             //Print a Diamond Pattern
+            //int input;
 
-            int input;
-            string output;
-            Console.WriteLine(" Enter Number ");
-            input = int.Parse(Console.ReadLine());
-
+            //Console.WriteLine("Enter Number");
+            //input = int.Parse(Console.ReadLine());
 
 
-            int i, m = 0, space;
-
-            for (i = 1; i <= input; i++, m = 0)
-            {
-                for (space = 1; space <= input - i; space++)
-                {
-                    Console.Write(" ");
-
-                }
-                while (m != 2 * i - 1)
-                {
-                    Console.Write("*");
-                    ++m;
-                }
+            //for (int i = 1; i <= input; i++)
+            //{
+            //    for (int j = 1; j <= input - i; j++)
+            //    {
+            //        Console.Write(" ");
+            //    }
+            //     for (int x = 1; x <= 2 * i - 1; x++)
+            //    {
+            //            Console.Write("*");
+            //    }
+            //     Console.WriteLine();
+            //}
 
 
-                
-                Console.Write("\n");
+            //    for (int i = input - 1; i >= 1; i--)
+            //    {
+            //        for (int j = 1; j <= input - i; j++)
+            //        {
+            //            Console.Write(" ");
+            //    }
+            //        for (int x = 1; x <= 2 * i - 1; x++)
+            //        {
+            //            Console.Write("*");
+            //    }
+            //      Console.WriteLine();
+            //}
 
-            }
+            //10. Guess Game with helper
+
+            //________________________________________________________
+
+
+
+            
+
+
+
 
 
         }
