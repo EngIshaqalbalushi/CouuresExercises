@@ -1,4 +1,5 @@
 ﻿using System.Security.Cryptography;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Exercises2
 {
@@ -156,7 +157,7 @@ namespace Exercises2
 
             //________________________________________________________
 
-           // Merging Two Arrays
+            // Merging Two Arrays
 
             //Console.WriteLine("Enter Array Number");
             //int arryNumber = int.Parse(Console.ReadLine());
@@ -196,11 +197,77 @@ namespace Exercises2
             //    Console.WriteLine(numbers2[i]);
             //}
 
+            //----------------------------------------------------
+
+
+            //  Remove Duplicates from an Array
+
+            //Console.WriteLine("Enter Array Number");
+            //int arryNumber = int.Parse(Console.ReadLine());
 
 
 
+            //int[] numbers = new int[arryNumber];
+
+            //for (int i = 0; i < numbers.Length; i++)
+            //{
+            //    Console.WriteLine("Enter Number");
+            //    int number = int.Parse(Console.ReadLine());
+            //    numbers[i] = number;
+            //}
 
 
+            //List<int> uniqueNumbers = new List<int>();
+            //HashSet<int> seenNumbers = new HashSet<int>();
+
+            //foreach (int num in numbers)
+            //{
+            //    if (!seenNumbers.Contains(num))
+            //    {
+            //        uniqueNumbers.Add(num);
+            //        seenNumbers.Add(num);
+            //    }
+            //}
+
+            //int[] uniqueArray = uniqueNumbers.ToArray();
+
+
+            //Console.WriteLine("Array after removing duplicates:");
+
+
+            //for (int i = 0; i < uniqueArray.Length; i++)
+            //{
+            //    Console.WriteLine(uniqueArray[i]);
+            //}
+
+            //_________________________________________
+
+            // Second Largest Number in an Array
+
+            //Console.WriteLine("Enter Array Number");
+            //int arryNumber = int.Parse(Console.ReadLine());
+
+
+
+            //int[] numbers = new int[arryNumber];
+
+            //for (int i = 0; i < numbers.Length; i++)
+            //{
+            //    if (arryNumber > 1) { 
+            //        Console.WriteLine("Enter Number");
+            //    int number = int.Parse(Console.ReadLine());
+            //    numbers[i] = number;
+            //    }
+             
+
+            //}
+
+            //Array.Sort(numbers);
+            //Array.Reverse(numbers);
+
+           
+            //    Console.WriteLine(numbers[1]);
+            
 
 
 
