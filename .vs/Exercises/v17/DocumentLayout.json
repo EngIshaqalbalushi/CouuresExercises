@@ -5,10 +5,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{F55347AF-C80D-4688-976C-2F90877C64A1}|Exercises2\\Exercises2.csproj|c:\\users\\codeline\\desktop\\projects\\exercises\\exercises2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F55347AF-C80D-4688-976C-2F90877C64A1}|Exercises2\\Exercises2.csproj|solutionrelative:exercises2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{390B2A93-181F-41F1-BD47-4653844ED9C6}|Exercises\\Exercises.csproj|c:\\users\\codeline\\desktop\\projects\\exercises\\exercises\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{390B2A93-181F-41F1-BD47-4653844ED9C6}|Exercises\\Exercises.csproj|solutionrelative:exercises\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,12 +14,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -32,22 +24,10 @@
               "RelativeDocumentMoniker": "Exercises2\\Program.cs",
               "ToolTip": "C:\\Users\\Codeline\\Desktop\\Projects\\Exercises\\Exercises2\\Program.cs",
               "RelativeToolTip": "Exercises2\\Program.cs",
-              "ViewState": "AgIAAPEAAAAAAAAAAAAuwA0BAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAABcCAAAAAAAAAAAYwDICAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-18T06:18:17.263Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Codeline\\Desktop\\Projects\\Exercises\\Exercises\\Program.cs",
-              "RelativeDocumentMoniker": "Exercises\\Program.cs",
-              "ToolTip": "C:\\Users\\Codeline\\Desktop\\Projects\\Exercises\\Exercises\\Program.cs",
-              "RelativeToolTip": "Exercises\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGwEAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T03:04:02.998Z"
             }
           ]
         }
